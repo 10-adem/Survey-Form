@@ -2,95 +2,85 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Survey Form</title>
-    <style>
-        .qes{
-            /* text-transform:var(15); */
-        }
-
-
-    </style>
-    </head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+</head>
 
 <body>
-    <form action="result.html" method="get">
-        <fieldset>
-            <h1>Clarusway Survey Form</h1>
-            
-            <p>Thank you for taking thw time to help us improve the platform</p>
+  <form action="result.html" method="get">
+    <fieldset>
+      <h1>Clarusway Survey Form</h1>
 
-            <label for="name" class="inpc">Name</label>
-            <br><br>
-            <input class="in" type="text" name="Name" id="name" placeholder="Enter your name">
-            <br>
-            <label for="surname" class="inpc">Surname</label>
-            <br><br>
-            <input class="in" type="text" name="Surname" id="surname" placeholder="Enter your surname">
-            <br>
-            <label for="email" class="inpc">Email</label>
-            <br><br>
-            <input type="email" name="Email" id="email" placeholder="user@clarusway.com">
-            <br>
-            <p >Which option best describes your current role?</p>
-            
-            <label for="current_role"></label>
-            <input type="text" name="Seçilen Role" id="current_role" list="role" value="Select current role">
-            
-            <datalist id="role">
-                    <option value="Front-end"></option>
-                    <option value="Back-end"></option>                       
-            </datalist>
-          <p >Would you recommend Clasrusway to a friend?</p>
-          
-          <input type="radio" name="check_1" id="Definitely" value="Definitely">
-            <label for="Definitely">Definitely, Yes</label>
-            <br> <br>
-            <input type="radio" name="check_1" id="Maybe" value="Maybe">
-            <label for="Maybe">Maybe</label>
-            <br> <br>
-            <input type="radio" name="check_1" id="Not sure" value="Not sure">
-            <label for="Not sure">Not sure</label>
-          <br> <br>
-          <input type="radio" name="check_1" id="Definitely, No" value="Definitely, No">
-            <label for="Definitely, No">Definitely, No</label>
-          <br><br>
-           <p >What is your favorite feature of Clarusway?</p>
-          <label for="favorite feature"></label>
-            <input type="text" name="favorite feature" id="favorite feature" list="favorite" value="Select an option">
-            
-            <datalist id="favorite">
-                    <option value="Dynamic"></option>
-                    <option value="
-                    Effectiveness"></option>                       
-            </datalist>
-          
-            <p >What would you like to see improved? (Check all that apply)</p>
-          
-          <input type="checkbox" name="check_1" id="Front-end" value="Front-end">
-            <label for="Front-end">Front-end Projects</label>
-            <br> <br>
-            <input type="checkbox" name="check_2" id="Back-end" value="Back-end">
-            <label for="Back-end">Back-end Projects</label>
-            <br> <br>
-            <input type="checkbox" name="check_3" id="Data" value="Data">
-            <label for="Data">Data Science</label>
-          <br> <br>
-          <input type="checkbox" name="check_4" id="Additional" value="Additional">
-            <label for="Additional">Additional Courses</label>
-            <br><br>
-            <p>Any comments or suggestions?</p>
-            <label for="yorum1"></label>
-            <textarea id="yorum1" cols=13 name="yorum" placeholder="Enter your comment here...Thanxs for your"></textarea>
-            <input type="submit" value="Submit">
-            
+      <p>Thank you for taking thw time to help us improve the platform</p>
+      <label for="name" class="inpc">Name</label>
+      <br><br>
+      <input class="in" type="text" name="Name" id="name" placeholder="Enter your name">
+      <br>
+      <label for="surname" class="inpc">Surname</label>
+      <br><br>
+      <input class="in" type="text" name="Surname" id="surname" placeholder="Enter your surname">
+      <br>
+      <label for="email" class="inpc">Email</label>
+      <br><br>
+      <input type="email" name="Email" id="email" placeholder="user@clarusway.com">
+      <br>
+      <p>Which option best describes your current role?</p>
 
-        </fieldset>
+      <label for="current_role"></label>
+      <input type="text" name="Seçilen Role" id="current_role" list="role" value="Select current role">
 
-    </form>
-   
+      <datalist id="role">
+        <option value="Front-end">Front-end</option>
+        <option value="Back-end">Back-end</option>
+      </datalist>
+
+
+      <p>Would you recommend Clasrusway to a friend?</p>
+
+      <input type="radio" name="check_1" id="Definitely" value="Definitely">
+      <label for="Definitely">Definitely, Yes</label>
+      <br><br>
+      <input type="radio" name="check_1" id="Maybe" value="Maybe">
+      <label for="Maybe">Maybe</label>
+      <br><br>
+      <input type="radio" name="check_1" id="Not sure" value="Not sure">
+      <label for="Not sure">Not sure</label>
+      <br><br>
+      <input type="radio" name="check_1" id="Definitely, No" value="Definitely, No">
+      <label for="Definitely, No">Definitely, No</label>
+      <br><br>
+      <p>What is your favorite feature of Clarusway?</p>
+      <label for="favorite feature"></label>
+      <input type="text" name="favorite feature" id="favorite feature" list="favorite" value="Select an option">
+
+      <datalist id="favorite">
+        <option value="Dynamic">Dynamic</option>
+        <option value="Effectiveness">Effectiveness</option>
+      </datalist>
+
+      <p>What would you like to see improved? (Check all that apply)</p>
+
+      <input type="checkbox" name="check_1" id="Front-end" value="Front-end">
+      <label for="Front-end">Front-end Projects</label>
+      <br><br>
+      <input type="checkbox" name="check_2" id="Back-end" value="Back-end">
+      <label for="Back-end">Back-end Projects</label>
+      <br><br>
+      <input type="checkbox" name="check_3" id="Data" value="Data">
+      <label for="Data">Data Science</label>
+      <br> <br>
+      <input type="checkbox" name="check_4" id="Additional" value="Additional">
+      <label for="Additional">Additional Courses</label>
+      <br><br>
+      <p>Any comments or suggestions?</p>
+      <label for="yorum1"></label>
+      <textarea id="yorum1" cols=13 name="yorum" placeholder="Enter your comment here...Thanxs for your"></textarea>
+      <input type="submit" value="Submit">
+    </fieldset>
+  </form>
+
 </body>
 
 </html>

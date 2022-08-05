@@ -34,9 +34,16 @@
             <br><br>
             <input type="email" name="Email" id="email" placeholder="user@clarusway.com">
             <br>
-            <label class="qes" for="role" > 
-                Which option best describes your current role?</label>
+            <p >Which option best describes your current role?</p>
             
+            <label for="current_role"></label>
+            <input type="text" name="Seçilen Role" id="current_role" list="role" value="Select current role">
+            
+            <datalist id="role">
+                    <option value="Front-end"></option>
+                    <option value="Back-end"></option>
+                    
+            </datalist>
 
 
 
